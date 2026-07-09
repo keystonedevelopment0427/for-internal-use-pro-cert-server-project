@@ -147,13 +147,14 @@ body {{
 
    #****rowからdata取り出し******
    name = row.iloc[0]["name"]
+   level = row.iloc[0]["level"]
 
    cert_id = row.iloc[0]["id"]
    image_url = row.iloc[0]["photo"]
 
 
    #*****固定表示text*********
-   certification1 = "資格名称:SORAT レベル１"
+   certification1 = "資格名称: " + level
    organization = "認定機関:(一社)ロープアクセス技術協会/(株)きぃすとん"
 
    status = "有効な資格証です"
