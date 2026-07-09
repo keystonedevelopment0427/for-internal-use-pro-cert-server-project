@@ -153,9 +153,8 @@ body {{
 
 
    #*****固定表示text*********
-   certification1 = "例１"
-   certification2 = "例２"
-   organization = "例３"
+   certification1 = "資格名称:SORAT レベル１"
+   organization = "認定機関:(一社)ロープアクセス技術協会/(株)きぃすとん"
 
    status = "有効な資格証です"
    color = "green"
@@ -314,10 +313,6 @@ body {{
            <span class="value">{certification1}</span>
        </div>
 
-
-   <div class="row">
-           <span class="value">{certification2}</span>
-       </div>
 
 
        <div class="row">
