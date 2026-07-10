@@ -152,6 +152,9 @@ body {{
    cert_id = row.iloc[0]["id"]
    image_url = row.iloc[0]["photo"]
 
+   created_at = row.iloc[0]["created_at"]
+
+
 
    #*****固定表示text*********
    certification1 = "資格名称: " + level
@@ -202,6 +205,11 @@ body {{
 .id {{
    font-size: 18px;
    margin-bottom: 8px;
+}}
+
+.created_at {{
+   font-size: 16px;
+   margin-bottom: 10px;
 }}
 
 
@@ -295,6 +303,8 @@ body {{
 
 
    <div class="id">認定番号: {cert_id}</div>
+
+   <div class="created_at">認定証発行日: {created_at}</div>
 
 
 
