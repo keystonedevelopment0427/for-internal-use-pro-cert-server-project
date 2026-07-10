@@ -208,7 +208,7 @@ body {{
 }}
 
 .created_at {{
-   font-size: 16px;
+   font-size: 12px;
    margin-bottom: 10px;
 }}
 
